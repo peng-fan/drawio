@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T08:02:53.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="srSSRomZ5VSVNinzdlVm" version="14.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-02T08:05:24.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="v6GclST0eZM4I5L174Kn" version="14.4.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="中断流程">
     <mxGraphModel dx="1800" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1646,7 +1646,7 @@
         <mxCell id="d4K5KzaiQOqYKz196sID-0" />
         <mxCell id="d4K5KzaiQOqYKz196sID-1" parent="d4K5KzaiQOqYKz196sID-0" />
         <mxCell id="d4K5KzaiQOqYKz196sID-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;执行指令&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=16;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
-          <mxGeometry x="240" y="120" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="170" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-3" value="指令结束" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=center;fontSize=16;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
           <mxGeometry x="240" y="230" width="160" height="80" as="geometry" />
@@ -1657,14 +1657,14 @@
             <mxPoint x="160" y="130" as="targetPoint" />
             <Array as="points">
               <mxPoint x="160" y="270" />
-              <mxPoint x="160" y="40" />
-              <mxPoint x="320" y="40" />
+              <mxPoint x="160" y="120" />
+              <mxPoint x="320" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="d4K5KzaiQOqYKz196sID-5">
           <mxGeometry x="0.1365" y="3" relative="1" as="geometry">
-            <mxPoint x="-2.5" y="133" as="offset" />
+            <mxPoint x="-31" y="133" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-7" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="d4K5KzaiQOqYKz196sID-1" source="d4K5KzaiQOqYKz196sID-2" target="d4K5KzaiQOqYKz196sID-3">
@@ -1677,19 +1677,16 @@
           <mxGeometry x="240" y="360" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;响应中断&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=16;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
-          <mxGeometry x="240" y="490" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="d4K5KzaiQOqYKz196sID-11" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;保存任务上下文&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=15;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
-          <mxGeometry x="240" y="580" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="480" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-12" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;执行中断服务函数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=16;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
-          <mxGeometry x="240" y="670" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="610" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-13" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;恢复任务上下文&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=16;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
-          <mxGeometry x="240" y="760" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="670" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;执行被中断的任务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=16;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
-          <mxGeometry x="240" y="850" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="730" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;取下一条指令&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=16;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
           <mxGeometry x="450" y="380" width="140" height="40" as="geometry" />
@@ -1705,10 +1702,10 @@
             <mxPoint y="2.86" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d4K5KzaiQOqYKz196sID-17" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="d4K5KzaiQOqYKz196sID-1">
+        <mxCell id="d4K5KzaiQOqYKz196sID-17" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="d4K5KzaiQOqYKz196sID-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="319.5" y="440" as="sourcePoint" />
-            <mxPoint x="319.5" y="490" as="targetPoint" />
+            <mxPoint x="320" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-23" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="d4K5KzaiQOqYKz196sID-17">
@@ -1716,37 +1713,31 @@
             <mxPoint x="0.5" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d4K5KzaiQOqYKz196sID-18" value="" style="endArrow=classic;html=1;fontColor=#000000;" edge="1" parent="d4K5KzaiQOqYKz196sID-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="319.8" y="530" as="sourcePoint" />
-            <mxPoint x="319.8" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-19" value="" style="endArrow=classic;html=1;fontColor=#000000;" edge="1" parent="d4K5KzaiQOqYKz196sID-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="319.49999999999994" y="620" as="sourcePoint" />
-            <mxPoint x="319.49999999999994" y="670" as="targetPoint" />
+            <mxPoint x="319.65999999999997" y="585" as="sourcePoint" />
+            <mxPoint x="320" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-20" value="" style="endArrow=classic;html=1;fontColor=#000000;" edge="1" parent="d4K5KzaiQOqYKz196sID-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="319.5" y="710" as="sourcePoint" />
-            <mxPoint x="319.5" y="760" as="targetPoint" />
+            <mxPoint x="319.66" y="650" as="sourcePoint" />
+            <mxPoint x="320" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4K5KzaiQOqYKz196sID-21" value="" style="endArrow=classic;html=1;fontColor=#000000;" edge="1" parent="d4K5KzaiQOqYKz196sID-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="319.5" y="800" as="sourcePoint" />
-            <mxPoint x="319.5" y="850" as="targetPoint" />
+            <mxPoint x="319.66" y="710" as="sourcePoint" />
+            <mxPoint x="320" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d4K5KzaiQOqYKz196sID-22" value="" style="endArrow=classic;html=1;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="d4K5KzaiQOqYKz196sID-1" target="d4K5KzaiQOqYKz196sID-15">
+        <mxCell id="d4K5KzaiQOqYKz196sID-22" value="" style="endArrow=classic;html=1;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="d4K5KzaiQOqYKz196sID-1" source="d4K5KzaiQOqYKz196sID-14" target="d4K5KzaiQOqYKz196sID-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="319.5" y="890" as="sourcePoint" />
             <mxPoint x="520" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="320" y="930" />
-              <mxPoint x="520" y="930" />
+              <mxPoint x="320" y="800" />
+              <mxPoint x="520" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1765,10 +1756,19 @@
         <mxCell id="d4K5KzaiQOqYKz196sID-28" value="" style="endArrow=none;html=1;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;rounded=0;endFill=0;" edge="1" parent="d4K5KzaiQOqYKz196sID-1" source="d4K5KzaiQOqYKz196sID-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="340" as="sourcePoint" />
-            <mxPoint x="310" y="40" as="targetPoint" />
+            <mxPoint x="320" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="40" />
+              <mxPoint x="520" y="120" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d4K5KzaiQOqYKz196sID-11" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;保存任务上下文&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=center;fillColor=none;fontSize=15;" vertex="1" parent="d4K5KzaiQOqYKz196sID-1">
+          <mxGeometry x="240" y="545" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d4K5KzaiQOqYKz196sID-29" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="d4K5KzaiQOqYKz196sID-1" source="d4K5KzaiQOqYKz196sID-10" target="d4K5KzaiQOqYKz196sID-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.79999999999995" y="530" as="sourcePoint" />
+            <mxPoint x="319.79999999999995" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
