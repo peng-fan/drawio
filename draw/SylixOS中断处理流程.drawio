@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T09:53:04.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="npxG3i8yj4HOQCIP1Syq" version="14.4.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-02T10:05:20.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="KTz60HqTDt8FU6R2x793" version="14.4.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="中断流程">
     <mxGraphModel dx="1800" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1895,7 +1895,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HmtOfNCPuUVhohYDNnJ8" name="SylixOS中断执行流程图">
-    <mxGraphModel dx="1080" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8nUhYCN4e0w8fUcTRB-V-0" />
         <mxCell id="8nUhYCN4e0w8fUcTRB-V-1" parent="8nUhYCN4e0w8fUcTRB-V-0" />
@@ -1948,7 +1948,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UPTHTdpdpXB4awOeMkgy" name="Page-7">
-    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RRO-amaHS7h7D7egVJ_n-0" />
         <mxCell id="RRO-amaHS7h7D7egVJ_n-1" parent="RRO-amaHS7h7D7egVJ_n-0" />
@@ -1975,6 +1975,9 @@
             <mxPoint x="340" y="130" as="sourcePoint" />
             <mxPoint x="390" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="842mEuu4FFsFstH6ilmR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;fontSize=6;fontColor=#000000;" edge="1" parent="RRO-amaHS7h7D7egVJ_n-1" source="RRO-amaHS7h7D7egVJ_n-42" target="842mEuu4FFsFstH6ilmR-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RRO-amaHS7h7D7egVJ_n-42" value="&lt;span style=&quot;font-size: 11px&quot;&gt;bspIntHandle()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;align=center;" vertex="1" parent="RRO-amaHS7h7D7egVJ_n-1">
           <mxGeometry x="430" y="200" width="170" height="30" as="geometry" />
@@ -2014,6 +2017,21 @@
         </mxCell>
         <mxCell id="RRO-amaHS7h7D7egVJ_n-51" value="&lt;span style=&quot;font-size: 11px&quot;&gt;archTaskCtxCopy()&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="RRO-amaHS7h7D7egVJ_n-1">
           <mxGeometry x="800" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="842mEuu4FFsFstH6ilmR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;fontSize=6;fontColor=#000000;" edge="1" parent="RRO-amaHS7h7D7egVJ_n-1" source="842mEuu4FFsFstH6ilmR-1" target="842mEuu4FFsFstH6ilmR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="842mEuu4FFsFstH6ilmR-1" value="&lt;span style=&quot;font-size: 11px&quot;&gt;archIntHandle&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="RRO-amaHS7h7D7egVJ_n-1">
+          <mxGeometry x="650" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="842mEuu4FFsFstH6ilmR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;fontSize=6;fontColor=#000000;" edge="1" parent="RRO-amaHS7h7D7egVJ_n-1" source="842mEuu4FFsFstH6ilmR-3" target="842mEuu4FFsFstH6ilmR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="842mEuu4FFsFstH6ilmR-3" value="&lt;span style=&quot;font-size: 11px&quot;&gt;API_InterVectorIsr()&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="RRO-amaHS7h7D7egVJ_n-1">
+          <mxGeometry x="800" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="842mEuu4FFsFstH6ilmR-7" value="注册中断服务" style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;dashed=1;" vertex="1" parent="RRO-amaHS7h7D7egVJ_n-1">
+          <mxGeometry x="960" y="200" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
