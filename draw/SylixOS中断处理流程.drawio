@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T08:05:24.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="v6GclST0eZM4I5L174Kn" version="14.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-02T08:11:21.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="nXa1ciVuhyvtMrTKr1Ns" version="14.4.3" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="中断流程">
     <mxGraphModel dx="1800" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1770,6 +1770,32 @@
             <mxPoint x="319.79999999999995" y="530" as="sourcePoint" />
             <mxPoint x="319.79999999999995" y="580" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XmcvbDh8NidlFeIpIMyh" name="中断框架">
+    <mxGraphModel dx="1080" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-0" />
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-1" parent="1Y9quskR-sIAKu0vI4V4-0" />
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-2" value="BSP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#000000;" vertex="1" parent="1Y9quskR-sIAKu0vI4V4-1">
+          <mxGeometry x="100" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-3" value="ARCH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#000000;" vertex="1" parent="1Y9quskR-sIAKu0vI4V4-1">
+          <mxGeometry x="110" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-4" value="irqEntry" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="1Y9quskR-sIAKu0vI4V4-1">
+          <mxGeometry x="190" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-5" value="startup.S" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#000000;" vertex="1" parent="1Y9quskR-sIAKu0vI4V4-1">
+          <mxGeometry x="374" y="170" width="136" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-7" value="archIntEntry" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="1Y9quskR-sIAKu0vI4V4-1">
+          <mxGeometry x="190" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y9quskR-sIAKu0vI4V4-8" value="armExcAsm.S" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#000000;" vertex="1" parent="1Y9quskR-sIAKu0vI4V4-1">
+          <mxGeometry x="380" y="270" width="136" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
