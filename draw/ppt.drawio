@@ -1,38 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T06:48:05.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="BENOEdB3PhXWt-QNKxJD" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T09:18:33.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="0VzV9EXDJruovLNQF3IB" version="14.4.3" type="github" pages="2">
   <diagram id="CjjHeqJjI1ASyGZotr5r" name="发展特点">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4C7X8X2bviHiyN2ZxLha-92" value="1" style="html=1;fillColor=#10739E;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=center;fontStyle=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="30" width="40" height="40" as="geometry" />
+          <mxGeometry x="310" y="150" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-93" value="安全" style="shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=10;notch=0;html=1;fillColor=#64BBE2;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="30" width="95" height="40" as="geometry" />
+          <mxGeometry x="355" y="150" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-94" value="2" style="html=1;fillColor=#F2931E;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=center;fontStyle=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="75" width="40" height="40" as="geometry" />
+          <mxGeometry x="310" y="195" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-95" value="功耗" style="shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=10;notch=0;html=1;fillColor=#F8C382;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="75" width="115" height="40" as="geometry" />
+          <mxGeometry x="355" y="195" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-96" value="3" style="html=1;fillColor=#AE4132;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=center;fontStyle=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="120" width="40" height="40" as="geometry" />
+          <mxGeometry x="310" y="240" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-97" value="网络" style="shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=10;notch=0;html=1;fillColor=#F08E81;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="120" width="135" height="40" as="geometry" />
+          <mxGeometry x="355" y="240" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-98" value="4" style="html=1;fillColor=#23445D;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=center;fontStyle=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="165" width="40" height="40" as="geometry" />
+          <mxGeometry x="310" y="285" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-99" value="UI交互" style="shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=10;notch=0;html=1;fillColor=#5D7F99;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="165" width="155" height="40" as="geometry" />
+          <mxGeometry x="355" y="285" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-100" value="5" style="html=1;fillColor=#12AAB5;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=center;fontStyle=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="210" width="40" height="40" as="geometry" />
+          <mxGeometry x="310" y="330" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4C7X8X2bviHiyN2ZxLha-101" value="..." style="shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=10;notch=0;html=1;fillColor=#61C6CE;strokeColor=none;shadow=0;fontSize=17;fontColor=#FFFFFF;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="210" width="175" height="40" as="geometry" />
+          <mxGeometry x="355" y="330" width="175" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="l-0JAWhbCEvXHGxYPO89" name="rtos种类">
+    <mxGraphModel dx="1038" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="OK1YI_gPvd3dZJ76q8Jr-0" />
+        <mxCell id="OK1YI_gPvd3dZJ76q8Jr-1" parent="OK1YI_gPvd3dZJ76q8Jr-0" />
+        <mxCell id="OK1YI_gPvd3dZJ76q8Jr-22" value="freertos" style="html=1;shape=mxgraph.infographic.bannerHalfFold;dx=40;dx2=20;notch=15;fillColor=#10739E;strokeColor=none;align=left;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;spacingLeft=25;spacingTop=5;" vertex="1" parent="OK1YI_gPvd3dZJ76q8Jr-1">
+          <mxGeometry x="310" y="70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OK1YI_gPvd3dZJ76q8Jr-23" value="rt-thread" style="html=1;shape=mxgraph.infographic.bannerHalfFold;dx=40;dx2=20;notch=15;fillColor=#F2931E;strokeColor=none;align=left;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;spacingLeft=25;spacingTop=5;" vertex="1" parent="OK1YI_gPvd3dZJ76q8Jr-1">
+          <mxGeometry x="310" y="130" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OK1YI_gPvd3dZJ76q8Jr-24" value="threadx" style="html=1;shape=mxgraph.infographic.bannerHalfFold;dx=40;dx2=20;notch=15;fillColor=#AE4132;strokeColor=none;align=left;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;spacingLeft=25;spacingTop=5;" vertex="1" parent="OK1YI_gPvd3dZJ76q8Jr-1">
+          <mxGeometry x="310" y="190" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OK1YI_gPvd3dZJ76q8Jr-25" value="ms-rtos" style="html=1;shape=mxgraph.infographic.bannerHalfFold;dx=40;dx2=20;notch=15;fillColor=#23445D;strokeColor=none;align=left;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;spacingLeft=25;spacingTop=5;" vertex="1" parent="OK1YI_gPvd3dZJ76q8Jr-1">
+          <mxGeometry x="310" y="250" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OK1YI_gPvd3dZJ76q8Jr-26" value="zephyr" style="html=1;shape=mxgraph.infographic.bannerHalfFold;dx=40;dx2=20;notch=15;fillColor=#12AAB5;strokeColor=none;align=left;verticalAlign=top;fontColor=#ffffff;fontSize=14;fontStyle=1;spacingLeft=25;spacingTop=5;" vertex="1" parent="OK1YI_gPvd3dZJ76q8Jr-1">
+          <mxGeometry x="310" y="310" width="200" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
