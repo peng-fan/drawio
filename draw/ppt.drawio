@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T02:24:32.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="Y3pcyxxKk6hQlv58P4ZC" version="14.5.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-04-03T02:25:19.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="4_s9-hJTTyaWOeMsM8Mo" version="14.5.4" type="github" pages="8">
   <diagram id="CjjHeqJjI1ASyGZotr5r" name="发展特点">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
         <mxCell id="i3jGT6--WJUtkUK_N278-43" value="26%" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0;endAngle=0.25328108031479624;arcWidth=0.2;strokeColor=none;fillColor=#23445D;fontSize=22;fontColor=#23445D;align=center;fontStyle=1" parent="i3jGT6--WJUtkUK_N278-42" vertex="1">
           <mxGeometry width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="i3jGT6--WJUtkUK_N278-44" value="社区生态" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=10;strokeColor=none;fillColor=#61C6CE;fontSize=12;fontColor=#12AAB5;align=center;fontStyle=1;" parent="i3jGT6--WJUtkUK_N278-1" vertex="1">
+        <mxCell id="i3jGT6--WJUtkUK_N278-44" value="简单易用" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=10;strokeColor=none;fillColor=#61C6CE;fontSize=12;fontColor=#12AAB5;align=center;fontStyle=1;" parent="i3jGT6--WJUtkUK_N278-1" vertex="1">
           <mxGeometry x="550" y="310" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i3jGT6--WJUtkUK_N278-45" value="20%" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0;endAngle=0.19563020602663836;arcWidth=0.2;strokeColor=none;fillColor=#12AAB5;fontSize=22;fontColor=#12AAB5;align=center;fontStyle=1" parent="i3jGT6--WJUtkUK_N278-44" vertex="1">
