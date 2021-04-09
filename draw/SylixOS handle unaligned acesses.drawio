@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T09:57:32.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="diIV2bdDgn27MPPvZcQk" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-09T09:58:15.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="MokQfaVr3FSntY-hTAMN" version="14.5.8" type="github" pages="2">
   <diagram id="E4xK8Pto2W4pFkSdTWmT" name="软件调用过程">
     <mxGraphModel dx="2370" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,9 +91,6 @@
         <mxCell id="yXukjnpsW-KK1kt59HQ0-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;异常服务函数&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-A0uk7EmdABj2qgQIPwf-1">
           <mxGeometry x="170" y="220" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yXukjnpsW-KK1kt59HQ0-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;异常服务函数&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-A0uk7EmdABj2qgQIPwf-1">
-          <mxGeometry x="170" y="480" width="150" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="yXukjnpsW-KK1kt59HQ0-4" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="-A0uk7EmdABj2qgQIPwf-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="440" as="sourcePoint" />
@@ -102,6 +99,21 @@
         </mxCell>
         <mxCell id="yXukjnpsW-KK1kt59HQ0-5" value="系统进入内核态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-A0uk7EmdABj2qgQIPwf-1">
           <mxGeometry x="450" y="410" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yXukjnpsW-KK1kt59HQ0-6" value="寄存器上下文保存&lt;br&gt;错误地址和EPC保存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="-A0uk7EmdABj2qgQIPwf-1">
+          <mxGeometry x="135" y="490" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yXukjnpsW-KK1kt59HQ0-7" value="寄存器上下文保存&lt;br&gt;错误地址和EPC保存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="-A0uk7EmdABj2qgQIPwf-1">
+          <mxGeometry x="135" y="610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yXukjnpsW-KK1kt59HQ0-8" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="-A0uk7EmdABj2qgQIPwf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="730" as="sourcePoint" />
+            <mxPoint x="550" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXukjnpsW-KK1kt59HQ0-9" value="系统退出内核态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-A0uk7EmdABj2qgQIPwf-1">
+          <mxGeometry x="440" y="700" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
