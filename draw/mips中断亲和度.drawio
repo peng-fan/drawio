@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-23T04:33:22.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="D3em3ZrdpmhK54FV0u9O" version="14.9.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-23T04:33:54.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="PKag-3PMgh-trbQXj4Iv" version="14.9.8" type="github" pages="3">
   <diagram id="f_AHl71J5UyCxcIMEl2Y" name="中断亲和度">
     <mxGraphModel dx="1360" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -302,7 +302,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qL8316SIURumnLxWKHzx" name="Page-3">
-    <mxGraphModel dx="-716" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-54" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jHImGd16olAUb6AEX5ug-0" />
         <mxCell id="jHImGd16olAUb6AEX5ug-1" parent="jHImGd16olAUb6AEX5ug-0" />
@@ -450,6 +450,9 @@
         </mxCell>
         <mxCell id="AUTbotIYAGW774YXRipP-34" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 18px&quot;&gt;SMP启动&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;align=center;" vertex="1" parent="jHImGd16olAUb6AEX5ug-1">
           <mxGeometry x="3291" y="442" width="160" height="40.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AUTbotIYAGW774YXRipP-76" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=18;strokeColor=#000000;exitX=0.458;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="jHImGd16olAUb6AEX5ug-1" source="AUTbotIYAGW774YXRipP-35" target="6F-4_NPyjS5Hty4GbFhC-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUTbotIYAGW774YXRipP-35" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 18px&quot;&gt;创建t_main&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;fontColor=#333333;align=center;" vertex="1" parent="jHImGd16olAUb6AEX5ug-1">
           <mxGeometry x="3291" y="513" width="160" height="40" as="geometry" />
