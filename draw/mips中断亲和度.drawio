@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T03:23:55.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="kPC4sXz_GUfCbYgcXr52" version="15.5.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-22T03:24:18.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="C1v6CJN7VdIjNFHqjpXo" version="15.5.5" type="github" pages="3">
   <diagram id="f_AHl71J5UyCxcIMEl2Y" name="中断亲和度">
     <mxGraphModel dx="2267" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,6 +420,9 @@
         </mxCell>
         <mxCell id="XYoJAEYj_I1ZfaBbK7dZ-33" value="3&lt;br&gt;1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zp1fFpFEGcA_6p3zPl2Y-1">
           <mxGeometry x="240" y="405" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYoJAEYj_I1ZfaBbK7dZ-34" value="虚拟地址VA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zp1fFpFEGcA_6p3zPl2Y-1">
+          <mxGeometry x="360" y="360" width="127" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
