@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T09:23:48.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Uf7OaQJ7JK9EPzLg7jP6" version="15.8.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-11-19T09:29:44.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="xUaqa0IL9qXJ00kHirln" version="15.8.2" type="github" pages="7">
   <diagram id="f_AHl71J5UyCxcIMEl2Y" name="中断亲和度">
     <mxGraphModel dx="1943" dy="2315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,7 +446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EP-NY7ksiWO70wNl1Wlf" name="__pageZoneCreate">
-    <mxGraphModel dx="-1121" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1121" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="TgAcxuwSvU-7I9-JrTVB-0" />
         <mxCell id="TgAcxuwSvU-7I9-JrTVB-1" parent="TgAcxuwSvU-7I9-JrTVB-0" />
@@ -579,7 +579,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RzBQwP-MeQv28c63McxO" name="MMU和CPU">
-    <mxGraphModel dx="-1121" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1121" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pN6bRRJCew_-PcDM15N0-0" />
         <mxCell id="pN6bRRJCew_-PcDM15N0-1" parent="pN6bRRJCew_-PcDM15N0-0" />
@@ -588,7 +588,7 @@
             <mxPoint x="3160" y="342.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2J9LgP8-IV3RN6Y8TScb-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;shadow=0;fillColor=#fff2cc;dashed=1;strokeColor=#d6b656;" parent="pN6bRRJCew_-PcDM15N0-1" vertex="1">
+        <mxCell id="2J9LgP8-IV3RN6Y8TScb-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;shadow=0;fillColor=#bac8d3;dashed=1;strokeColor=#23445d;" parent="pN6bRRJCew_-PcDM15N0-1" vertex="1">
           <mxGeometry x="2560" y="165" width="520" height="355" as="geometry" />
         </mxCell>
         <mxCell id="2J9LgP8-IV3RN6Y8TScb-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;CPU芯片&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pN6bRRJCew_-PcDM15N0-1" vertex="1">
@@ -597,7 +597,7 @@
         <mxCell id="ycyQDUS3QUtl1FdYf2X2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="pN6bRRJCew_-PcDM15N0-1" source="mqP5noCNfkh4bnhkxsQ3-0" target="ycyQDUS3QUtl1FdYf2X2-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mqP5noCNfkh4bnhkxsQ3-0" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ffffff&quot;&gt;CPU&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="pN6bRRJCew_-PcDM15N0-1" vertex="1">
+        <mxCell id="mqP5noCNfkh4bnhkxsQ3-0" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ffffff&quot;&gt;CPU&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="pN6bRRJCew_-PcDM15N0-1" vertex="1">
           <mxGeometry x="2600" y="360" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ycyQDUS3QUtl1FdYf2X2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=18;" parent="pN6bRRJCew_-PcDM15N0-1" source="ycyQDUS3QUtl1FdYf2X2-0" target="ycyQDUS3QUtl1FdYf2X2-1" edge="1">
