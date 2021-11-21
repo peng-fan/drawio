@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T02:18:23.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="NeagOK34lTQ7rJuoqHIz" version="15.8.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-11-21T02:19:42.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="95GkM_eBJ_tNkOTiYxD7" version="15.8.2" type="github" pages="9">
   <diagram id="f_AHl71J5UyCxcIMEl2Y" name="中断亲和度">
     <mxGraphModel dx="1943" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1272,7 +1272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uArEe_MHmwfRNsRsEb2j" name="vmm">
-    <mxGraphModel dx="642" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1100" dy="3178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u2GTPOnVYsDRcUWBa1dU-0" />
         <mxCell id="u2GTPOnVYsDRcUWBa1dU-1" parent="u2GTPOnVYsDRcUWBa1dU-0" />
@@ -1439,6 +1439,12 @@
         </mxCell>
         <mxCell id="dHyNCBLI3XgspvEEUXW6-51" value="&lt;font style=&quot;font-size: 18px&quot;&gt;vmmSwap.c&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="u2GTPOnVYsDRcUWBa1dU-1">
           <mxGeometry x="531" y="-970" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dHyNCBLI3XgspvEEUXW6-52" value="&lt;font style=&quot;font-size: 18px&quot;&gt;bspMap.h&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="u2GTPOnVYsDRcUWBa1dU-1">
+          <mxGeometry x="300" y="-1230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dHyNCBLI3XgspvEEUXW6-53" value="&lt;font style=&quot;font-size: 18px&quot;&gt;bspInit.c&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="u2GTPOnVYsDRcUWBa1dU-1">
+          <mxGeometry x="490" y="-1230" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
