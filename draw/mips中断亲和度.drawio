@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T10:44:47.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KYPMElDtztNeweGvkdsR" version="15.8.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-11-22T10:47:37.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Wc4if8kDw0K-xf8AbFTZ" version="15.8.3" type="github" pages="15">
   <diagram id="f_AHl71J5UyCxcIMEl2Y" name="中断亲和度">
     <mxGraphModel dx="1943" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2885,6 +2885,15 @@
           <mxGeometry width="440" height="40" as="geometry">
             <mxRectangle width="440" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FSbAutrvSWd01T-TnVaL-25" value="1" style="ellipse;fillColor=#ffffff;strokeColor=#000000;fontSize=21;align=center;opacity=50;" vertex="1" parent="-ELKuOPBKEz89c3syUcd-1">
+          <mxGeometry x="2260" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSbAutrvSWd01T-TnVaL-27" value="2" style="ellipse;fillColor=#ffffff;strokeColor=#000000;fontSize=21;align=center;opacity=50;" vertex="1" parent="-ELKuOPBKEz89c3syUcd-1">
+          <mxGeometry x="2260" y="247" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSbAutrvSWd01T-TnVaL-29" value="3" style="ellipse;fillColor=#ffffff;strokeColor=#000000;fontSize=21;align=center;opacity=50;" vertex="1" parent="-ELKuOPBKEz89c3syUcd-1">
+          <mxGeometry x="1540" y="450" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
