@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T02:33:24.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="QaC5FpnhJK70ZdhNaE3o" version="15.8.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-11-23T02:35:19.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="TmBcv7QnhkhawgU_JZ4g" version="15.8.3" type="github" pages="16">
   <diagram id="f_AHl71J5UyCxcIMEl2Y" name="中断亲和度">
     <mxGraphModel dx="1943" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2899,10 +2899,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_k0cTGPZLeElXKjwcCMX" name="__pageCbAlloc_one">
-    <mxGraphModel dx="1943" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2267" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ShtGtIZImBIiRI3apGIu-0" />
         <mxCell id="ShtGtIZImBIiRI3apGIu-1" parent="ShtGtIZImBIiRI3apGIu-0" />
+        <mxCell id="ShtGtIZImBIiRI3apGIu-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;strokeColor=#b46504;strokeWidth=2;fillColor=#fad7ac;align=center;opacity=50;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-1">
+          <mxGeometry x="414" y="190" width="446" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="ShtGtIZImBIiRI3apGIu-2" value="_K_pmonoPhyPageFreeList" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-1">
           <mxGeometry x="40" y="80" width="250" height="40" as="geometry" />
         </mxCell>
@@ -2918,7 +2921,7 @@
         <mxCell id="ShtGtIZImBIiRI3apGIu-6" value="PAGECB_monoFreeList&amp;nbsp; :&amp;nbsp;LW_LIST_MONO" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;fontSize=18;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-5">
           <mxGeometry y="30" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ShtGtIZImBIiRI3apGIu-7" value="PAGECB_vmpage :&amp;nbsp;LW_VMM_PAGE" style="html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;fontSize=18;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-5">
+        <mxCell id="ShtGtIZImBIiRI3apGIu-7" value="PAGECB_vmpage :&amp;nbsp;LW_VMM_PAGE" style="html=1;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;fontSize=18;fontColor=#ffffff;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-5">
           <mxGeometry y="60" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ShtGtIZImBIiRI3apGIu-8" value="ulPageNum - 1" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-1">
@@ -2974,9 +2977,6 @@
             <mxPoint x="830" y="290" as="sourcePoint" />
             <mxPoint x="920" y="290" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ShtGtIZImBIiRI3apGIu-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;strokeColor=#b46504;strokeWidth=2;fillColor=#fad7ac;align=center;opacity=50;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-1">
-          <mxGeometry x="414" y="190" width="446" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ShtGtIZImBIiRI3apGIu-27" value="已经被分配，移除链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;opacity=50;" vertex="1" parent="ShtGtIZImBIiRI3apGIu-1">
           <mxGeometry x="450" y="360" width="360" height="30" as="geometry" />
