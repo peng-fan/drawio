@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T00:39:20.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="1dtu0YAYocHC6D_XHcsy" version="15.8.3" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2021-11-27T00:41:07.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="7Xwaro3ieXK18V_kdYaC" version="15.8.3" type="github" pages="24">
   <diagram id="f_AHl71J5UyCxcIMEl2Y" name="中断亲和度">
     <mxGraphModel dx="1600" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5811,7 +5811,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExJg-8BkvmWf1yfyMA0l" name="__pageStructSeparate">
-    <mxGraphModel dx="2720" dy="2661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1824" dy="2345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7UvdwLuMZeqSkN7n0ONS-0" />
         <mxCell id="7UvdwLuMZeqSkN7n0ONS-1" parent="7UvdwLuMZeqSkN7n0ONS-0" />
@@ -6028,8 +6028,8 @@
         <mxCell id="7UvdwLuMZeqSkN7n0ONS-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeColor=#C73500;fillColor=#fa6800;align=center;opacity=70;fontColor=#000000;" vertex="1" parent="7UvdwLuMZeqSkN7n0ONS-1">
           <mxGeometry x="950" y="-290" width="160" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="7UvdwLuMZeqSkN7n0ONS-53" value="&lt;b&gt;pvmpage&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="7UvdwLuMZeqSkN7n0ONS-1">
-          <mxGeometry x="1698" y="-260" width="160" height="40" as="geometry" />
+        <mxCell id="7UvdwLuMZeqSkN7n0ONS-53" value="&lt;b&gt;pvmpageNewFree=pvmpageNew&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="7UvdwLuMZeqSkN7n0ONS-1">
+          <mxGeometry x="1698" y="-260" width="312" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7UvdwLuMZeqSkN7n0ONS-54" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=18;strokeColor=default;fillColor=none;align=left;" vertex="1" parent="7UvdwLuMZeqSkN7n0ONS-1">
           <mxGeometry x="950" y="-330" width="480" height="600" as="geometry" />
@@ -6832,6 +6832,9 @@
         </mxCell>
         <mxCell id="uWyR8werngS7GGd9R7xV-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;strokeWidth=1;fillColor=none;gradientColor=#ffffff;gradientDirection=west;align=left;" vertex="1" parent="7UvdwLuMZeqSkN7n0ONS-1">
           <mxGeometry x="2008" y="-420" width="1182" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWyR8werngS7GGd9R7xV-78" value="&lt;b&gt;pvmpageFit=pvmpage&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="7UvdwLuMZeqSkN7n0ONS-1">
+          <mxGeometry x="2750" y="-260" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
