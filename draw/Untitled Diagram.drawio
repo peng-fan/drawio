@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T06:43:07.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KFBwdC2ac8gak170XduH" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T06:43:42.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="_GPc1flLMXB32dLoIRTt" version="15.8.8" type="github">
   <diagram id="U0nHHaFnMRh2SWLV-GLk" name="Page-1">
-    <mxGraphModel dx="2652" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2974" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,12 @@
           <mxGeometry x="180" y="240" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SmHuJh4yXJjteX9EHYeU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.197;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="SmHuJh4yXJjteX9EHYeU-14" target="SmHuJh4yXJjteX9EHYeU-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="800" />
+              <mxPoint x="299" y="800" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SmHuJh4yXJjteX9EHYeU-14" value="&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;SPI设备&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="840" width="120" height="80" as="geometry" />
@@ -95,6 +100,12 @@
         </mxCell>
         <mxCell id="SmHuJh4yXJjteX9EHYeU-32" value="SCC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="170" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SmHuJh4yXJjteX9EHYeU-35" value="I2C1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="510" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SmHuJh4yXJjteX9EHYeU-36" value="SPI0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="305" y="790" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
