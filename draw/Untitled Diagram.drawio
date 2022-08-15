@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T07:34:26.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="j3rI1174m7FCetZzLTFc" version="17.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-15T07:41:09.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="J8n_4_E3Js0eUnFkFI04" version="17.2.4" type="github" pages="2">
   <diagram id="nfGo_dEASCfMza-7uzMA" name="Page-1">
     <mxGraphModel dx="1570" dy="2079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,10 +286,25 @@
           <mxGeometry x="570" y="630" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JdBTpKA2gSGN_fg3w0tY-44" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;strokeColor=none;fillColor=#DBE3F4;" vertex="1" parent="1">
-          <mxGeometry x="319" y="555" width="370" height="50" as="geometry" />
+          <mxGeometry x="319" y="510" width="370" height="95" as="geometry" />
         </mxCell>
         <mxCell id="JdBTpKA2gSGN_fg3w0tY-45" value="Kernel" style="fillColor=#10739E;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="319" y="555" width="101" height="25" as="geometry" />
+          <mxGeometry x="319" y="510" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JdBTpKA2gSGN_fg3w0tY-46" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;线程管理&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;strokeColor=none;fillColor=#C00000;" vertex="1" parent="1">
+          <mxGeometry x="429.5" y="525" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdBTpKA2gSGN_fg3w0tY-48" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;内存管理设计&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;strokeColor=none;fillColor=#C00000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="525" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdBTpKA2gSGN_fg3w0tY-49" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;任务间通信设计&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;strokeColor=none;fillColor=#C00000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdBTpKA2gSGN_fg3w0tY-50" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;线程调度&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;strokeColor=none;fillColor=#C00000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdBTpKA2gSGN_fg3w0tY-51" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;strokeColor=none;fillColor=#C00000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="570" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
