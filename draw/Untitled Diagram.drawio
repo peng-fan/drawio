@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T14:14:20.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Q9KJM8s9lPBJBP2S7WYj" version="17.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-15T14:16:14.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="y8K_jwR85irJf71xBKLH" version="17.2.4" type="github" pages="5">
   <diagram id="nfGo_dEASCfMza-7uzMA" name="Page-1">
     <mxGraphModel dx="1570" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -370,9 +370,12 @@
           <mxGeometry x="148.75" y="340" width="332.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-7" value="继续运行当前线程" style="whiteSpace=wrap;html=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="525" width="260" height="60" as="geometry" />
+          <mxGeometry x="550" y="360" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="Lnb0YVddJk9k1oIFI5D9-13" target="Lnb0YVddJk9k1oIFI5D9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lnb0YVddJk9k1oIFI5D9-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="Lnb0YVddJk9k1oIFI5D9-13" target="Lnb0YVddJk9k1oIFI5D9-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-13" value="产生优先级卷绕？" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
@@ -381,10 +384,16 @@
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="Lnb0YVddJk9k1oIFI5D9-15" target="Lnb0YVddJk9k1oIFI5D9-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Lnb0YVddJk9k1oIFI5D9-30" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="Lnb0YVddJk9k1oIFI5D9-15" target="Lnb0YVddJk9k1oIFI5D9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-15" value="线程候选表为空？" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="137.5" y="620" width="355" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="Lnb0YVddJk9k1oIFI5D9-17" target="Lnb0YVddJk9k1oIFI5D9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lnb0YVddJk9k1oIFI5D9-32" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="Lnb0YVddJk9k1oIFI5D9-17" target="Lnb0YVddJk9k1oIFI5D9-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-17" value="存在更需要&lt;br&gt;运行的线程？" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
@@ -404,6 +413,15 @@
         </mxCell>
         <mxCell id="Lnb0YVddJk9k1oIFI5D9-25" value="线程切换运行候选表线程" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="117.5" y="1070" width="395" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lnb0YVddJk9k1oIFI5D9-27" value="线程切换&lt;br&gt;运行候选表中线程" style="whiteSpace=wrap;html=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lnb0YVddJk9k1oIFI5D9-29" value="将最该执行的就绪&lt;br&gt;线程放入候选表" style="whiteSpace=wrap;html=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="630" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lnb0YVddJk9k1oIFI5D9-31" value="线程切换&lt;br&gt;运行候选表中线程" style="whiteSpace=wrap;html=1;fontSize=24;fontFamily=Courier New;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="750" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
