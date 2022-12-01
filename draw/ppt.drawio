@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T03:15:29.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gIVJ9JKycYc0Zker3Mjb" version="20.6.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-12-01T03:16:00.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KNBw98yMVBxAV5ICde9F" version="20.6.0" type="github" pages="8">
   <diagram id="CjjHeqJjI1ASyGZotr5r" name="发展特点">
     <mxGraphModel dx="942" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,7 +280,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NNnaH9ih_LMpt2ix3OT1" name="第 8 页">
-    <mxGraphModel dx="1935" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2173" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OCqqKtWi8fKmr_GiJnAd-0" />
         <mxCell id="OCqqKtWi8fKmr_GiJnAd-1" parent="OCqqKtWi8fKmr_GiJnAd-0" />
@@ -305,13 +305,13 @@
         <mxCell id="qk8YimPpP7xQDiIMORs_-21" value="未来期望" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=61.57;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="OCqqKtWi8fKmr_GiJnAd-1">
           <mxGeometry x="790" y="510" width="270" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="qk8YimPpP7xQDiIMORs_-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="OCqqKtWi8fKmr_GiJnAd-1">
+        <mxCell id="qk8YimPpP7xQDiIMORs_-23" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="OCqqKtWi8fKmr_GiJnAd-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="680" as="sourcePoint" />
             <mxPoint x="40" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qk8YimPpP7xQDiIMORs_-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="OCqqKtWi8fKmr_GiJnAd-1">
+        <mxCell id="qk8YimPpP7xQDiIMORs_-24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="OCqqKtWi8fKmr_GiJnAd-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="640" as="sourcePoint" />
             <mxPoint x="1130" y="640" as="targetPoint" />
