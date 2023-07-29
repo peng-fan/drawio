@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T02:46:54.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="J-u2VRSNr-iAjjt_jr76" version="21.1.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-29T11:33:47.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eajEMP6X7kIwkJ-f9Q-l" version="21.6.5" type="github" pages="9">
   <diagram id="CjjHeqJjI1ASyGZotr5r" name="发展特点">
-    <mxGraphModel dx="954" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l-0JAWhbCEvXHGxYPO89" name="rtos种类">
-    <mxGraphModel dx="942" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OK1YI_gPvd3dZJ76q8Jr-0" />
         <mxCell id="OK1YI_gPvd3dZJ76q8Jr-1" parent="OK1YI_gPvd3dZJ76q8Jr-0" />
@@ -61,7 +61,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4yeN4M9kWPnGRvQnwYAy" name="操作系统关注点">
-    <mxGraphModel dx="942" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="i3jGT6--WJUtkUK_N278-0" />
         <mxCell id="i3jGT6--WJUtkUK_N278-1" parent="i3jGT6--WJUtkUK_N278-0" />
@@ -99,7 +99,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VQLGn2n7Ey7PU1MaRIdb" name="安全">
-    <mxGraphModel dx="942" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3WClr_E3IJ7B6J_tfyS1-0" />
         <mxCell id="3WClr_E3IJ7B6J_tfyS1-1" parent="3WClr_E3IJ7B6J_tfyS1-0" />
@@ -164,7 +164,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RTZIjMR2X6x7Du3dXJ19" name="系统调用">
-    <mxGraphModel dx="942" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_zsm817EqmCex0UwWVEd-0" />
         <mxCell id="_zsm817EqmCex0UwWVEd-1" parent="_zsm817EqmCex0UwWVEd-0" />
@@ -210,7 +210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o_UkHyU4Uu2PtRDFrNRF" name="多进程与动态装载">
-    <mxGraphModel dx="942" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jsz9F_5tXOQNFPzecc2Z-0" />
         <mxCell id="jsz9F_5tXOQNFPzecc2Z-1" parent="jsz9F_5tXOQNFPzecc2Z-0" />
@@ -239,7 +239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9McwP_rjv4kga8CTUZJF" name="其他特性">
-    <mxGraphModel dx="942" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3Q-6qGe4Ay8kMAXs1a08-0" />
         <mxCell id="3Q-6qGe4Ay8kMAXs1a08-1" parent="3Q-6qGe4Ay8kMAXs1a08-0" />
@@ -280,7 +280,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NNnaH9ih_LMpt2ix3OT1" name="第 8 页">
-    <mxGraphModel dx="1781" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2190" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OCqqKtWi8fKmr_GiJnAd-0" />
         <mxCell id="OCqqKtWi8fKmr_GiJnAd-1" parent="OCqqKtWi8fKmr_GiJnAd-0" />
@@ -405,7 +405,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x7zS7BF62uPgMjdj90bY" name="第 9 页">
-    <mxGraphModel dx="954" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -433,14 +433,6 @@
         <mxCell id="cDEFyvbWUfbi37W0tVC2-8" value="60%" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0;endAngle=0.5672992925498727;arcWidth=0.2;strokeColor=none;fillColor=#23445D;fontSize=22;fontColor=#23445D;align=center;fontStyle=1" parent="cDEFyvbWUfbi37W0tVC2-7" vertex="1">
           <mxGeometry width="100" height="100" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="aZf4Nu0TgWFDR0RK0xJ6" name="yaffs-虚拟oob">
-    <mxGraphModel dx="954" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
