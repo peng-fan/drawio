@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="3">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1673" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2033" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,13 +45,13 @@
             <mxPoint x="-249.99999999999977" y="220.02173913043487" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hzrtC8bXQG8fUITcc9Oh-2" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="维护指向具体策略的引用，且仅通过策略接口与该对象进行交互" vertex="1">
+        <mxCell id="hzrtC8bXQG8fUITcc9Oh-2" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div data-page-id=&quot;XQFvd94RPoZa4Mx5yjpcOu3MnYf&quot; data-lark-html-role=&quot;root&quot; data-docx-has-block-data=&quot;false&quot;&gt;&lt;div class=&quot;ace-line ace-line old-record-id-ExkXdVtDqofSKyxZcV6c9kCpnzc&quot;&gt;RTC子系统，作为环境(Context)类，使用这些策略&lt;/div&gt;&lt;/div&gt;&lt;span data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;XQFvd94RPoZa4Mx5yjpcOu3MnYf&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;RTC子系统：作为环境(Context)类，使用这些策略&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+s&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7164723265586348036&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:true,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;aa6ecff8-70e5-4af4-9037-28c291040ef5&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:26,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:28},&amp;quot;recordId&amp;quot;:&amp;quot;ExkXdVtDqofSKyxZcV6c9kCpnzc&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot; data-lark-record-format=&quot;docx/text&quot; class=&quot;lark-record-clipboard&quot;&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="240" x="-195" y="33.5" as="geometry" />
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-3" parent="hzrtC8bXQG8fUITcc9Oh-2" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" value="&lt;&lt;Context&gt;&gt;" vertex="1">
           <mxGeometry height="25" relative="1" width="240" as="geometry" />
         </mxCell>
-        <mxCell id="hzrtC8bXQG8fUITcc9Oh-7" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="RTC策略接口，是所有具体策略的通用接口，这里声明了一个上下文用于执行策略的方法" vertex="1">
+        <mxCell id="hzrtC8bXQG8fUITcc9Oh-7" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;作为&lt;/span&gt;RTC&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;抽象策略接口，定义了所有RTC操作的公共接口&lt;/span&gt;" vertex="1">
           <mxGeometry height="83.5" width="210" x="470" y="33.5" as="geometry" />
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-8" parent="hzrtC8bXQG8fUITcc9Oh-7" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" value="&lt;&lt;Strategy&gt;&gt;" vertex="1">
@@ -62,7 +62,7 @@
             <mxPoint x="610" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hzrtC8bXQG8fUITcc9Oh-10" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="具体策略实现，针对不同类型RTC变体进行实现" vertex="1">
+        <mxCell id="hzrtC8bXQG8fUITcc9Oh-10" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;作为&lt;/span&gt;具体策略实现&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;，如isl1208RtcFuncs、ds1302RtcFuncs等&lt;/span&gt;" vertex="1">
           <mxGeometry height="70" width="210" x="470" y="130" as="geometry" />
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-11" parent="hzrtC8bXQG8fUITcc9Oh-10" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" value="&lt;&lt;Concreate Strategy&gt;&gt;" vertex="1">
