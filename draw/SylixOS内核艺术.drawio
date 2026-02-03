@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="3">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1846" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2038" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5d2195bd80daf111-18" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LW_RTC_FUNCS&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RTC_pfuncInit(): VOID&lt;br&gt;+ RTC_pfuncSet(time_t): INT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RTC_pfuncGet(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;time_t&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): INT&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;RTC_pfuncIoct&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;(P&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LW_RTC_DEV, INT, PVOID): INT&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="153" width="290" x="270" y="40" as="geometry" />
+          <mxGeometry height="153" width="290" x="120" y="33.5" as="geometry" />
         </mxCell>
         <mxCell id="XZOQuBiejWB4pPDkbVrN-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;_G_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;isl1208RtcFuncs&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ isl1208RtcInit(): VOID&lt;br&gt;+ isl1208RtcSet(time_t): INT&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; text-wrap-mode: nowrap;&quot;&gt;+ isl1208Rtc&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Get(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;time_t&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): INT&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ isl1208Rtc&lt;span style=&quot;background-color: transparent;&quot;&gt;Ioct&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;(P&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LW_RTC_DEV, INT, PVOID): INT&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="140" width="280" x="120" y="281" as="geometry" />
@@ -13,35 +13,25 @@
         <mxCell id="XZOQuBiejWB4pPDkbVrN-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;_G_ds1302RtcFuncs&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;ds1302&lt;/span&gt;RtcInit(): VOID&lt;br&gt;+&amp;nbsp;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;ds1302&lt;/span&gt;RtcSet(time_t): INT&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; text-wrap-mode: nowrap;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;ds1302&lt;/span&gt;Rtc&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Get(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;time_t&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): INT&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;ds1302&lt;/span&gt;Rtc&lt;span style=&quot;background-color: transparent;&quot;&gt;Ioct&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;(P&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LW_RTC_DEV, INT, PVOID): INT&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="140" width="290" x="410" y="281" as="geometry" />
         </mxCell>
-        <mxCell id="XZOQuBiejWB4pPDkbVrN-8" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.567;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.488;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+        <mxCell id="XZOQuBiejWB4pPDkbVrN-8" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.555;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" target="5d2195bd80daf111-18" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
-              <mxPoint x="228.48" y="240.98" />
-              <mxPoint x="410" y="241" />
+              <mxPoint x="280" y="240" />
             </Array>
-            <mxPoint x="228.57999999999996" y="281" as="sourcePoint" />
-            <mxPoint x="410" y="192.60300000000004" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XZOQuBiejWB4pPDkbVrN-11" edge="1" parent="1" source="XZOQuBiejWB4pPDkbVrN-3" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.52;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="240" />
-            </Array>
-            <mxPoint x="460" y="281" as="sourcePoint" />
-            <mxPoint x="410" y="240" as="targetPoint" />
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="250" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XZOQuBiejWB4pPDkbVrN-16" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-wrap-mode: wrap;&quot;&gt;SylixOS BSP&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;+ &amp;nbsp;bspBoardTimeInit(): VOID&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="80" width="175" x="-420" y="70" as="geometry" />
         </mxCell>
         <mxCell id="XZOQuBiejWB4pPDkbVrN-18" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LW_RTC_DEV&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pRtcFuncs: LW_RTC_FUNCS*&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rtcDrv(): VOID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rtcDevCreate(pFuncs: LW_RTC_FUNCS*): INT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ rtcToSys(): INT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rtcGetTime(pTime: PLW_RTC_TIME): INT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rtcSetTime(pTime: PLW_RTC_TIME): INT&lt;/p&gt;" vertex="1">
-          <mxGeometry height="140" width="270" x="-190" y="46.5" as="geometry" />
+          <mxGeometry height="140" width="270" x="-260" y="-80" as="geometry" />
         </mxCell>
-        <mxCell id="kXamOiUtVVaqds6EJIla-5" edge="1" parent="1" source="5d2195bd80daf111-18" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=-0.003;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" target="XZOQuBiejWB4pPDkbVrN-18" value="">
+        <mxCell id="kXamOiUtVVaqds6EJIla-5" edge="1" parent="1" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.458;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="-20" y="210" as="sourcePoint" />
-            <mxPoint x="150" y="110" as="targetPoint" />
+            <mxPoint x="720" y="-79.92599999999993" as="sourcePoint" />
+            <mxPoint x="820" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kXamOiUtVVaqds6EJIla-7" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XZOQuBiejWB4pPDkbVrN-18" value="">
@@ -50,32 +40,55 @@
             <mxPoint x="-240" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kXamOiUtVVaqds6EJIla-8" edge="1" parent="1" source="XZOQuBiejWB4pPDkbVrN-16" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.519;exitY=1.018;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="XZOQuBiejWB4pPDkbVrN-2" value="">
+        <mxCell id="kXamOiUtVVaqds6EJIla-8" edge="1" parent="1" source="XZOQuBiejWB4pPDkbVrN-16" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.519;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
               <mxPoint x="-330" y="350" />
+              <mxPoint x="-40" y="340" />
             </Array>
             <mxPoint x="-480" y="160" as="sourcePoint" />
-            <mxPoint x="50" y="350" as="targetPoint" />
+            <mxPoint x="-200" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-5" edge="1" parent="1" source="hzrtC8bXQG8fUITcc9Oh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="XZOQuBiejWB4pPDkbVrN-18" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-2" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="维护指向具体策略的引用，且仅通过策略接口与该对象进行交互" vertex="1">
-          <mxGeometry height="60" width="240" x="-175" y="230" as="geometry" />
+          <mxGeometry height="60" width="240" x="-330" y="175" as="geometry" />
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-3" parent="hzrtC8bXQG8fUITcc9Oh-2" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" value="&lt;&lt;Context&gt;&gt;" vertex="1">
           <mxGeometry height="25" relative="1" width="240" as="geometry" />
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-9" edge="1" parent="1" source="hzrtC8bXQG8fUITcc9Oh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="5d2195bd80daf111-18" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="133" />
+              <mxPoint x="740" y="117" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-7" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="RTC策略接口，是所有具体策略的通用接口，这里声明了一个上下文用于执行策略的方法" vertex="1">
-          <mxGeometry height="100" width="210" x="590" y="66.5" as="geometry" />
+          <mxGeometry height="83.5" width="210" x="760" y="91.5" as="geometry" />
         </mxCell>
         <mxCell id="hzrtC8bXQG8fUITcc9Oh-8" parent="hzrtC8bXQG8fUITcc9Oh-7" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" value="&lt;&lt;Strategy&gt;&gt;" vertex="1">
           <mxGeometry height="25" relative="1" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="hzrtC8bXQG8fUITcc9Oh-12" edge="1" parent="1" source="hzrtC8bXQG8fUITcc9Oh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.817;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="XZOQuBiejWB4pPDkbVrN-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzrtC8bXQG8fUITcc9Oh-10" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="具体策略实现，针对不同类型RTC变体进行实现" vertex="1">
+          <mxGeometry height="70" width="210" x="760" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hzrtC8bXQG8fUITcc9Oh-11" parent="hzrtC8bXQG8fUITcc9Oh-10" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" value="&lt;&lt;Concreate Strategy&gt;&gt;" vertex="1">
+          <mxGeometry height="25" relative="1" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="hzrtC8bXQG8fUITcc9Oh-14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
